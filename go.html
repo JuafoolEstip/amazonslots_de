@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Loading...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/webp" sizes="32x32" href="../pics/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="../pics/favicon-16x16.webp">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      text-align: center;
+    }
+
+    .google-play-loader {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .logo {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 20px;
+      border-radius: 16px;
+    }
+
+    .dots-loader {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      margin: 0 4px;
+      background-color: #34a853;
+      border-radius: 50%;
+      animation: bounce 1.2s infinite ease-in-out;
+    }
+
+    .dot:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .dot:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    @keyframes bounce {
+      0%, 80%, 100% {
+        transform: scale(0);
+      } 40% {
+        transform: scale(1);
+      }
+    }
+
+    .text {
+      font-size: 14px;
+      color: #555;
+      margin-top: 20px;
+      max-width: 90%;
+    }
+  </style>
+
+<script>
+    (function () {
+      const fallbackUrl = new URL("index.html", window.location.href).href;
+      const rawTrackerLink = "https://trackme.click/LghqfN?site=amazonslots.info".trim();
+      let destination;
+
+      try {
+        destination = new url(rawTrackerLink, window.location.origin);
+        if (!rawTrackerLink || !["http:", "https:"].includes(destination.protocol)) {
+          throw new Error("Invalid tracker URL");
+        }
+      } catch (_error) {
+        // A tracker is optional. Never reload this page forever when it is absent.
+        window.location.replace(fallbackUrl);
+        return;
+      }
+
+      window.setTimeout(function () {
+        window.location.replace(destination.href);
+      }, 3000);
+    }());
+  </script>
+    <link rel="alternate" hreflang="en" href="https://amazonslots.info/go.html" />
+    <link rel="alternate" hreflang="pl" href="https://amazonslots.info/pl/go.html" />
+    <link rel="alternate" hreflang="it" href="https://amazonslots.info/it/go.html" />
+    <link rel="alternate" hreflang="de" href="https://amazonslots.info/de/go.html" />
+    <link rel="alternate" hreflang="es" href="https://amazonslots.info/es/go.html" />
+    <link rel="alternate" hreflang="x-default" href="https://amazonslots.info/go.html" />
+      <link rel="canonical" href="https://amazonslots.info/de/go.html" data-qmeta="canonical">
+  </head>
+<body>
+  <div class="google-play-loader">
+    <img class="logo" src="../pics/logo.webp" alt="logo"> <!-- ЗАМЕНИТЕ ЛОГО -->
+    <div class="dots-loader">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+    <div class="text">Loading...</div>
+  </div>
+</body>
+</html>

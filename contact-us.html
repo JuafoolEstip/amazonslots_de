@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt | Amazon Slots</title>
+  <meta name="description" content="Kontaktieren Sie das Amazon Slots-Team für Support, Feedback oder Anfragen. Wir sind hier, um Ihnen bei allen Fragen zu helfen.">
+  
+  <!-- Стили темной темы и базовые стили -->
+  <link href="../static/home/dark_theme/dark_theme.css" rel="stylesheet">
+ 
+  <link rel="canonical" href="https://amazonslots.info/de/contact-us.html" data-qmeta="canonical">
+  
+  <!-- Open Graph для соц. сетей -->
+  <meta property="og:title" content="Kontakt | Amazon Slots">
+  <meta property="og:description" content="Kontaktieren Sie das Amazon Slots-Team für Support, Feedback oder Anfragen. Wir sind hier, um Ihnen bei allen Fragen zu helfen.">
+  <meta property="og:url" content="amazonslots.info/contact-us.html">
+  <meta property="og:type" content="website">
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" as="style">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/webp" sizes="32x32" href="../pics/favicon-32x32.webp">
+  <link rel="icon" type="image/webp" sizes="16x16" href="../pics/favicon-16x16.webp">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .wrapper {
+      margin-top: 80px;
+    }
+
+    /* Закрепленная плашка приложения */
+    .app-navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: var(--white);
+      box-shadow: 0 1px 3px var(--shadow_img);
+      z-index: 1000;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--boder);
+    }
+    
+    .app-navbar-container {
+      max-width: 991px;
+      margin: 0 auto;
+      padding: 0 25px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .app-navbar-left {
+      display: flex;
+      align-items: center;
+      flex: 1;
+    }
+    
+    .app-navbar-logo {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      margin-right: 12px;
+      box-shadow: 0 1px 3px var(--shadow_img);
+      position: relative;
+    }
+    
+    .app-navbar-info {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      min-width: 0;
+    }
+    
+    .app-navbar-name {
+      font-size: 20px;
+      line-height: 26px;
+      font-weight: 500;
+      color: var(--black_text);
+      margin-bottom: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    .app-navbar-category {
+      font-size: 12px;
+      line-height: 20px;
+      color: var(--other_text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    .app-navbar-stats {
+      display: flex;
+      align-items: center;
+      margin: 0 -15px;
+      width: max-content;
+    }
+    
+    .app-navbar-stat {
+      position: relative;
+      padding: 8px 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .app-navbar-stat:not(:last-child)::after {
+      content: "";
+      width: 1px;
+      height: 22px;
+      position: absolute;
+      background: var(--between);
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    
+    .app-navbar-stat-value {
+      font-weight: 500;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 2px;
+      color: var(--black_text);
+      opacity: 0.9;
+    }
+    
+    .app-navbar-stat-value img {
+      height: 14px;
+      margin-left: 2px;
+    }
+    
+    /* Иконка для размера приложения */
+    .app-navbar-download-icon {
+      width: 21px;
+      height: 20px;
+      border: 0.5mm solid var(--black);
+      border-radius: 3px;
+      padding: 2px;
+      margin-bottom: 5px;
+      filter: var(--filter_for_black);
+      opacity: 0.7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .app-navbar-download-icon img {
+      width: 14px;
+      height: 14px;
+      margin: 0;
+    }
+    
+    .app-navbar-stat-label {
+      font-size: 12px;
+      line-height: 20px;
+      color: var(--other_text);
+    }
+    
+    .app-navbar-button {
+      font-size: 15px;
+      height: 36px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      background: var(--primary_back);
+      color: var(--white_text);
+      border: none;
+      border-radius: 17px;
+      padding: 0 20px;
+      text-decoration: none;
+      font-weight: 400;
+      white-space: nowrap;
+      cursor: pointer;
+      margin-left: 15px;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .app-navbar {
+        padding: 8px 0;
+      }
+      
+      .wrapper {
+        margin-top: 75px !important;
+      }
+      
+      .app-navbar-container {
+        padding: 0 15px;
+      }
+      
+      .app-navbar-logo {
+        width: 42px;
+        height: 42px;
+        margin-right: 10px;
+      }
+      
+      .app-navbar-name {
+        font-size: 17px;
+        line-height: 22px;
+      }
+      
+      .app-navbar-category {
+        font-size: 12px;
+        line-height: 18px;
+      }
+      
+      .app-navbar-stats {
+        margin: 0 -10px;
+      }
+      
+      .app-navbar-stat {
+        padding: 8px 10px;
+      }
+      
+      .app-navbar-stat-value {
+        font-size: 13px;
+        line-height: 16px;
+      }
+      
+      .app-navbar-stat-label {
+        font-size: 11px;
+        line-height: 16px;
+      }
+      
+      .app-navbar-download-icon {
+        width: 18px;
+        height: 17px;
+        margin-bottom: 4px;
+      }
+      
+      .app-navbar-download-icon img {
+        width: 12px;
+        height: 12px;
+      }
+      
+      .app-navbar-button {
+        padding: 0 14px;
+        font-size: 14px;
+        height: 32px;
+        margin-left: 10px;
+        align-self: center;
+      }
+    }
+    
+    @media screen and (max-width: 480px) {
+      .wrapper {
+        margin-top: 70px !important;
+      }
+      
+      .app-navbar-container {
+        padding: 0 12px;
+      }
+      
+      .app-navbar-logo {
+        width: 38px;
+        height: 38px;
+        margin-right: 8px;
+      }
+      
+      .app-navbar-name {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      
+      .app-navbar-category {
+        font-size: 11px;
+        line-height: 16px;
+      }
+      
+      .app-navbar-stats {
+        margin: 0 -8px;
+      }
+      
+      .app-navbar-stat {
+        padding: 6px 8px;
+      }
+      
+      .app-navbar-stat:nth-child(2) {
+        display: none;
+      }
+      
+      .app-navbar-download-icon img {
+        width: 10px;
+        height: 10px;
+      }
+      
+      .app-navbar-stat-value {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 2px;
+      }
+      
+      .app-navbar-stat-label {
+        font-size: 10px;
+        line-height: 14px;
+      }
+      
+      .app-navbar-button {
+        padding: 0 12px;
+        font-size: 13px;
+        height: 30px;
+        margin-left: 8px;
+        align-self: center;
+      }
+    }
+    
+    .contact-container {
+      max-width: 991px;
+      margin: 0 auto;
+      padding: 20px 25px;
+    }
+    
+    .contact-header {
+      margin-bottom: 30px;
+    }
+    
+    .contact-title {
+      font-size: 28px;
+      line-height: 1.3;
+      font-weight: 500;
+      margin-bottom: 15px;
+      color: var(--black_text);
+    }
+    
+    .contact-subtitle {
+      font-size: 18px;
+      color: var(--other_text);
+      margin-bottom: 30px;
+    }
+    
+    .contact-content {
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--black_text);
+    }
+    
+    .contact-info {
+      margin-bottom: 40px;
+    }
+    
+    .contact-info-title {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 15px;
+      color: var(--black_text);
+    }
+    
+    .contact-info-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 15px;
+    }
+    
+    .contact-info-icon {
+      width: 24px;
+      height: 24px;
+      margin-right: 15px;
+      fill: var(--primary_text);
+    }
+    
+    .contact-info-text {
+      color: var(--black_text);
+    }
+    
+    .contact-info-text a {
+      color: var(--primary_text);
+      text-decoration: none;
+    }
+    
+    .contact-info-text a:hover {
+      text-decoration: underline;
+    }
+    
+    .contact-form {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 1px 3px var(--shadow_img);
+      margin-bottom: 40px;
+    }
+    
+    .contact-form-title {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 20px;
+      color: var(--black_text);
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .form-label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 500;
+      color: var(--black_text);
+    }
+    
+    .form-control {
+      width: 100%;
+      padding: 12px 15px;
+      border: 1px solid var(--boder);
+      border-radius: 8px;
+      background-color: var(--white);
+      color: var(--black_text);
+      font-size: 16px;
+      transition: border-color 0.3s;
+    }
+    
+    .form-control:focus {
+      outline: none;
+      border-color: var(--primary_text);
+    }
+    
+    textarea.form-control {
+      min-height: 150px;
+      resize: vertical;
+    }
+    
+    .btn-primary {
+      display: inline-block;
+      background-color: var(--primary_back);
+      color: var(--white_text);
+      font-weight: 500;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+    
+    .btn-primary:hover {
+      background-color: var(--primary_dark);
+    }
+    
+    .faq-section {
+      margin-bottom: 40px;
+    }
+    
+    .faq-title {
+      font-size: 24px;
+      font-weight: 500;
+      margin-bottom: 20px;
+      color: var(--black_text);
+    }
+    
+    .faq-item {
+      margin-bottom: 20px;
+    }
+    
+    .faq-question {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 10px;
+      color: var(--black_text);
+    }
+    
+    .faq-answer {
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--black_text);
+    }
+    
+    /* Footer styles */
+    .footer {
+      background-color: var(--white);
+      padding: 20px 0;
+      margin-top: 40px;
+      border-top: 1px solid var(--boder);
+    }
+    
+    .footer-container {
+      max-width: 991px;
+      margin: 0 auto;
+      padding: 0 25px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .footer-nav {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    
+    .footer-nav a {
+      color: var(--black_text);
+      margin-right: 20px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      text-decoration: none;
+    }
+    
+    .footer-copyright {
+      font-size: 12px;
+      color: var(--gray_text);
+    }
+    
+    @media screen and (max-width: 767px) {
+      .contact-form {
+        padding: 20px;
+      }
+      
+      .footer-nav {
+        flex-direction: column;
+      }
+      
+      .footer-nav a {
+        margin-bottom: 15px;
+      }
+    }
+  </style>
+    <link rel="alternate" hreflang="en" href="https://amazonslots.info/contact-us.html" />
+    <link rel="alternate" hreflang="pl" href="https://amazonslots.info/pl/contact-us.html" />
+    <link rel="alternate" hreflang="it" href="https://amazonslots.info/it/contact-us.html" />
+    <link rel="alternate" hreflang="de" href="https://amazonslots.info/de/contact-us.html" />
+    <link rel="alternate" hreflang="es" href="https://amazonslots.info/es/contact-us.html" />
+    <link rel="alternate" hreflang="x-default" href="https://amazonslots.info/contact-us.html" />
+  </head>
+
+<body>
+  <div class="wrapper">
+    <!-- Шапка сайта -->
+    <header class="header">
+      <div class="header__container">
+        <a class="header-back" href="index.html" aria-label="Zurück zu Amazon Slots">
+          <i class="_icon-arrow_back"></i>
+        </a>
+        <a class="header-search" href="#" aria-label="Amazon Slots Suchseite">
+          <i class="_icon-search_black stp"></i>
+        </a>
+      </div>
+    </header>
+
+    <!-- Выдвигающаяся плашка приложения -->
+    <div class="app-navbar" id="appNavbar">
+      <div class="app-navbar-container">
+        <div class="app-navbar-left">
+          <img src="../pics/logo.webp" alt="Amazon Slots Official Application" class="app-navbar-logo">
+          <div class="app-navbar-info">
+            <h1 class="app-navbar-name c-black">Amazon Slots</h1>
+            <span class="app-navbar-category c-text">Casino</span>
+          </div>
+        </div>
+        <div class="app-navbar-stats">
+          <div class="app-navbar-stat">
+            <span class="app-navbar-stat-value c-black">
+              4.8
+              <img src="../pics/star_black_24dp.svg" width="14" height="14" alt="Amazon Slots Rating" />
+            </span>
+            <span class="app-navbar-stat-label c-text">128640 Bewertungen</span>
+          </div>
+          <div class="app-navbar-stat">
+            <div class="app-navbar-download-icon">
+              <img src="../pics/download.png" width="14" height="14" alt="Downloads count" />
+            </div>
+            <span class="app-navbar-stat-label c-text">58 MB</span>
+          </div>
+          <div class="app-navbar-stat">
+            <span class="app-navbar-stat-value c-black">1M+</span>
+            <span class="app-navbar-stat-label c-text">Downloads</span>
+          </div>
+        </div>
+        <a href="../index.html" class="app-navbar-button primary-back c-white">Herunterladen</a>
+      </div>
+    </div>
+
+    <div class="wrapper">
+
+    <main class="contact-container">
+      <div class="contact-header">
+        <h1 class="contact-title">Kontaktieren Sie uns</h1>
+        <p class="contact-subtitle">Wir freuen uns, von Ihnen zu hören. Bitte füllen Sie das untenstehende Formular aus oder wenden Sie sich über unsere Kontaktinformationen an uns.</p>
+      </div>
+      
+      <div class="contact-content">
+        <div class="contact-info">
+          <h2 class="contact-info-title">Kontaktinformationen</h2>
+          
+          <div class="contact-info-item">
+            <span class="contact-info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </span>
+            <div class="contact-info-text">
+              <strong>E-Mail:</strong><br>
+              <a href="/cdn-cgi/l/email-protection#93e0e6e3e3fce1e7d3e8e8d7dcded2daddeeee">support@amazonslots.info</a>
+            </div>
+          </div>
+          
+          <div class="contact-info-item">
+            <span class="contact-info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 12c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm6-1.8C18 6.57 15.35 4 12 4s-6 2.57-6 6.2c0 2.34 1.95 5.44 6 9.14 4.05-3.7 6-6.8 6-9.14zM12 2c4.2 0 8 3.22 8 8.2 0 3.32-2.67 7.25-8 11.8-5.33-4.55-8-8.48-8-11.8C4 5.22 7.8 2 12 2z"/></svg>
+            </span>
+            <div class="contact-info-text">
+              <strong>Adresse:</strong><br>
+              Amazon Slots Hauptsitz<br>
+              Alexanderplatz 1, 10178 Berlin, Deutschland
+            </div>
+          </div>
+          
+          <div class="contact-info-item">
+            <span class="contact-info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            </span>
+            
+          </div>
+        </div>
+        
+        <div class="contact-form">
+          <h2 class="contact-form-title">Senden Sie uns eine Nachricht</h2>
+          
+          <form id="contactForm" action="#" method="POST">
+            <div class="form-group">
+              <label for="name" class="form-label">Ihr Name</label>
+              <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email" class="form-label">E-Mail-Adresse</label>
+              <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject" class="form-label">Betreff</label>
+              <input type="text" id="subject" name="subject" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="message" class="form-label">Nachricht</label>
+              <textarea id="message" name="message" class="form-control" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn-primary">Nachricht senden</button>
+          </form>
+        </div>
+        
+        <div class="faq-section">
+          <h2 class="faq-title">Häufig gestellte Fragen</h2>
+          
+          <div class="faq-item">
+            <h3 class="faq-question">Wie ist die typische Antwortzeit?</h3>
+            <p class="faq-answer">Wir bemühen uns, alle Anfragen innerhalb von 24-48 Stunden an Werktagen zu beantworten. Bei dringenden Angelegenheiten rufen Sie bitte direkt unsere Support-Hotline an.</p>
+          </div>
+          
+          <div class="faq-item">
+            <h3 class="faq-question">Ich habe Probleme mit meinem Konto. Wie kann ich Hilfe bekommen?</h3>
+            <p class="faq-answer">Bitte füllen Sie das Kontaktformular mit detaillierten Informationen über das Problem aus, das Sie haben. Stellen Sie sicher, dass Sie Ihren Benutzernamen (aber nicht Ihr Passwort) und die Schritte zur Reproduktion des Problems angeben.</p>
+          </div>
+          
+          <div class="faq-item">
+            <h3 class="faq-question">Bieten Sie Partnerschaften oder Kooperationen an?</h3>
+            <p class="faq-answer">Ja, wir sind offen für Partnerschaften und Kooperationen. Bitte senden Sie uns eine E-Mail an <a href="/cdn-cgi/l/email-protection#54243526203a3126273c3d2427142f2f101b19151d1a2929">partnerships@amazonslots.info</a> mit Ihrem Vorschlag und Ihren Unternehmensinformationen.</p>
+          </div>
+          
+          <div class="faq-item">
+            <h3 class="faq-question">Wie kann ich ein Problem oder verdächtige Aktivitäten melden?</h3>
+            <p class="faq-answer">Wenn Sie verdächtige Aktivitäten oder technische Probleme bemerken, melden Sie diese bitte sofort über unser Kontaktformular oder senden Sie uns direkt eine E-Mail an <a href="/cdn-cgi/l/email-protection#f08395938582998489b08b8bb4bfbdb1b9be8d8d">security@amazonslots.info</a>.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-nav">
+          <a href="index.html">Startseite</a>
+          <a href="privacy-policy.html">Datenschutzrichtlinie</a>
+          <a href="terms-of-service.html">Nutzungsbedingungen</a>
+          <a href="contact-us.html">Kontakt</a>
+          <a href="blog/index.html">Blog</a>
+        </div>
+        
+                  <div class="footer-language-switch" style="display: flex; justify-content: center; margin-bottom: 10px; padding-top: 8px; border-top: 1px solid rgba(200, 200, 200, 0.1);">
+           <select onchange="
+            const selectedLang = this.value;
+            const currentPath = window.location.pathname;
+            const enabledSiteLanguages = [&quot;en&quot;,&quot;pl&quot;,&quot;it&quot;,&quot;de&quot;,&quot;es&quot;];
+
+            // ИСПРАВЛЕНИЕ: Правильно определяем текущий файл
+            let currentFile = currentPath.split('/').pop();
+            // Если путь заканчивается на /, то это index.html
+            if (!currentFile || currentFile === '') {
+              currentFile = 'index.html';
+            }
+
+            // Определяем текущую позицию относительно структуры сайта
+            let isInLanguageFolder = false;
+            let isInBlogFolder = false;
+            let currentLang = 'de';
+
+            // Анализируем путь для определения структуры
+            const pathParts = currentPath.split('/').filter(part => part);
+
+            // Проверяем, находимся ли мы в папке блога
+            if (pathParts.includes('blog')) {
+              isInBlogFolder = true;
+            }
+
+            // Проверяем, находимся ли мы в языковой папке
+            if (pathParts.length >= 1) {
+              // Для blog страниц: /lang/blog/file.html
+              if (isInBlogFolder && pathParts.length >= 2) {
+                const langIndex = pathParts.indexOf('blog') - 1;
+                if (langIndex >= 0 && enabledSiteLanguages.includes(pathParts[langIndex])) {
+                  isInLanguageFolder = true;
+                }
+              }
+              // Для обычных страниц: /lang/file.html или /lang/
+              else if (!isInBlogFolder && pathParts.length >= 1) {
+                // ИСПРАВЛЕНИЕ: Проверяем случай /lang/ (без файла)
+                if (pathParts.length === 1 && enabledSiteLanguages.includes(pathParts[0])) {
+                  // Это путь типа /nl/ - мы в языковой папке
+                  isInLanguageFolder = true;
+                } else {
+                  // Убираем .html из имени файла для проверки
+                  const possibleLang = pathParts[pathParts.length - 1].replace('.html', '');
+                  if (enabledSiteLanguages.includes(possibleLang)) {
+                    // Это файл типа /en.html
+                    isInLanguageFolder = false;
+                  } else if (pathParts.length >= 2) {
+                    // Проверяем папку перед файлом: /lang/index.html
+                    const folderBeforeFile = pathParts[pathParts.length - 2];
+                    if (enabledSiteLanguages.includes(folderBeforeFile)) {
+                      isInLanguageFolder = true;
+                    }
+                  }
+                }
+              }
+            }
+
+            // Формируем правильный относительный путь
+            let targetPath = '';
+
+            if (currentFile.endsWith('.html') && currentFile !== 'index.html' && isInBlogFolder) {
+              // Страница статьи блога
+              if (isInLanguageFolder) {
+                // Мы в языковой версии статьи: /lang/blog/article.html
+                if (selectedLang === 'en') {
+                  targetPath = '../../blog/' + currentFile; // К основному языку
+                } else {
+                  targetPath = '../../' + selectedLang + '/blog/' + currentFile; // К другому языку
+                }
+              } else {
+                // Мы в основном языке статьи: /blog/article.html
+                if (selectedLang === 'en') {
+                  targetPath = currentFile; // Остаемся в основном языке
+                } else {
+                  targetPath = '../' + selectedLang + '/blog/' + currentFile; // К языковой версии
+                }
+              }
+            } else if (currentFile === 'index.html' && isInBlogFolder) {
+              // Главная страница блога
+              if (isInLanguageFolder) {
+                // Мы в языковой версии блога: /lang/blog/index.html
+                if (selectedLang === 'en') {
+                  targetPath = '../../blog/index.html'; // К основному языку
+                } else {
+                  targetPath = '../../' + selectedLang + '/blog/index.html'; // К другому языку
+                }
+              } else {
+                // Мы в основном языке блога: /blog/index.html
+                if (selectedLang === 'en') {
+                  targetPath = 'index.html'; // Остаемся в основном языке
+                } else {
+                  targetPath = '../' + selectedLang + '/blog/index.html'; // К языковой версии
+                }
+              }
+            } else {
+              // Другие страницы (не блог)
+              if (isInLanguageFolder) {
+                // Мы в языковой папке: /lang/file.html
+                if (selectedLang === 'en') {
+                  targetPath = '../' + currentFile; // К основному языку
+                } else {
+                  targetPath = '../' + selectedLang + '/' + currentFile; // К другому языку
+                }
+              } else {
+                // Мы в корне: /file.html
+                if (selectedLang === 'en') {
+                  targetPath = currentFile; // Остаемся в основном языке
+                } else {
+                  targetPath = selectedLang + '/' + currentFile; // К языковой версии
+                }
+              }
+            }
+            window.location.href = targetPath;
+          " style="font-size: 10px; padding: 2px 4px; border: 1px solid rgba(200, 200, 200, 0.3); border-radius: 3px; background: var(--white); color: var(--gray_text); cursor: pointer;">
+            <option value="en">en</option>
+            <option value="pl">pl</option>
+            <option value="it">it</option>
+            <option value="de" selected>de</option>
+            <option value="es">es</option>
+          </select>
+        </div>
+        <div class="footer-copyright">
+          © 2025 Amazon Slots. Alle Rechte vorbehalten.
+        </div>
+      </div>
+    </footer>
+    </div>
+  </div>
+  
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      
+      // В реальном проекте здесь будет обработка формы и отправка данных на сервер
+      alert('Formular gesendet! In einem echten Projekt würden die Daten an den Server gesendet.');
+      
+      // Очистка формы
+      this.reset();
+    });
+  </script>
+</body>
+</html> 

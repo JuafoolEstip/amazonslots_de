@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutzungsbedingungen | Amazon Slots</title>
+  <meta name="description" content="Lesen Sie unsere Nutzungsbedingungen, um die Regeln, Richtlinien und Vereinbarungen für die Nutzung der Amazon Slots-Plattform zu verstehen.">
+  
+  <!-- Стили темной темы и базовые стили -->
+  <link href="../static/home/dark_theme/dark_theme.css" rel="stylesheet">
+ 
+  <link rel="canonical" href="https://amazonslots.info/de/terms-of-service.html" data-qmeta="canonical">
+   
+  <!-- Open Graph для соц. сетей -->
+  <meta property="og:title" content="Nutzungsbedingungen | Amazon Slots">
+  <meta property="og:description" content="Lesen Sie unsere Nutzungsbedingungen, um die Regeln, Richtlinien und Vereinbarungen für die Nutzung der Amazon Slots-Plattform zu verstehen.">
+  <meta property="og:url" content="https://amazonslots.info/terms-of-service.html">
+  <meta property="og:type" content="website">
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" as="style">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/webp" sizes="32x32" href="../pics/favicon-32x32.webp">
+  <link rel="icon" type="image/webp" sizes="16x16" href="../pics/favicon-16x16.webp">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .wrapper {
+      margin-top: 80px;
+    }
+
+    /* Закрепленная плашка приложения */
+    .app-navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: var(--white);
+      box-shadow: 0 1px 3px var(--shadow_img);
+      z-index: 1000;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--boder);
+    }
+    
+    .app-navbar-container {
+      max-width: 991px;
+      margin: 0 auto;
+      padding: 0 25px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .app-navbar-left {
+      display: flex;
+      align-items: center;
+      flex: 1;
+    }
+    
+    .app-navbar-logo {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      margin-right: 12px;
+      box-shadow: 0 1px 3px var(--shadow_img);
+      position: relative;
+    }
+    
+    .app-navbar-info {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      min-width: 0;
+    }
+    
+    .app-navbar-name {
+      font-size: 20px;
+      line-height: 26px;
+      font-weight: 500;
+      color: var(--black_text);
+      margin-bottom: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    .app-navbar-category {
+      font-size: 12px;
+      line-height: 20px;
+      color: var(--other_text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    .app-navbar-stats {
+      display: flex;
+      align-items: center;
+      margin: 0 -15px;
+      width: max-content;
+    }
+    
+    .app-navbar-stat {
+      position: relative;
+      padding: 8px 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .app-navbar-stat:not(:last-child)::after {
+      content: "";
+      width: 1px;
+      height: 22px;
+      position: absolute;
+      background: var(--between);
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    
+    .app-navbar-stat-value {
+      font-weight: 500;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 2px;
+      color: var(--black_text);
+      opacity: 0.9;
+    }
+    
+    .app-navbar-stat-value img {
+      height: 14px;
+      margin-left: 2px;
+    }
+    
+    /* Иконка для размера приложения */
+    .app-navbar-download-icon {
+      width: 21px;
+      height: 20px;
+      border: 0.5mm solid var(--black);
+      border-radius: 3px;
+      padding: 2px;
+      margin-bottom: 5px;
+      filter: var(--filter_for_black);
+      opacity: 0.7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .app-navbar-download-icon img {
+      width: 14px;
+      height: 14px;
+      margin: 0;
+    }
+    
+    .app-navbar-stat-label {
+      font-size: 12px;
+      line-height: 20px;
+      color: var(--other_text);
+    }
+    
+    .app-navbar-button {
+      font-size: 15px;
+      height: 36px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      background: var(--primary_back);
+      color: var(--white_text);
+      border: none;
+      border-radius: 17px;
+      padding: 0 20px;
+      text-decoration: none;
+      font-weight: 400;
+      white-space: nowrap;
+      cursor: pointer;
+      margin-left: 15px;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .app-navbar {
+        padding: 8px 0;
+      }
+      
+      .wrapper {
+        margin-top: 75px !important;
+      }
+      
+      .app-navbar-container {
+        padding: 0 15px;
+      }
+      
+      .app-navbar-logo {
+        width: 42px;
+        height: 42px;
+        margin-right: 10px;
+      }
+      
+      .app-navbar-name {
+        font-size: 17px;
+        line-height: 22px;
+      }
+      
+      .app-navbar-category {
+        font-size: 12px;
+        line-height: 18px;
+      }
+      
+      .app-navbar-stats {
+        margin: 0 -10px;
+      }
+      
+      .app-navbar-stat {
+        padding: 8px 10px;
+      }
+      
+      .app-navbar-stat-value {
+        font-size: 13px;
+        line-height: 16px;
+      }
+      
+      .app-navbar-stat-label {
+        font-size: 11px;
+        line-height: 16px;
+      }
+      
+      .app-navbar-download-icon {
+        width: 18px;
+        height: 17px;
+        margin-bottom: 4px;
+      }
+      
+      .app-navbar-download-icon img {
+        width: 12px;
+        height: 12px;
+      }
+      
+      .app-navbar-button {
+        padding: 0 14px;
+        font-size: 14px;
+        height: 32px;
+        margin-left: 10px;
+        align-self: center;
+      }
+    }
+    
+    @media screen and (max-width: 480px) {
+      .wrapper {
+        margin-top: 70px !important;
+      }
+      
+      .app-navbar-container {
+        padding: 0 12px;
+      }
+      
+      .app-navbar-logo {
+        width: 38px;
+        height: 38px;
+        margin-right: 8px;
+      }
+      
+      .app-navbar-name {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      
+      .app-navbar-category {
+        font-size: 11px;
+        line-height: 16px;
+      }
+      
+      .app-navbar-stats {
+        margin: 0 -8px;
+      }
+      
+      .app-navbar-stat {
+        padding: 6px 8px;
+      }
+      
+      .app-navbar-stat:nth-child(2) {
+        display: none;
+      }
+      
+      .app-navbar-download-icon img {
+        width: 10px;
+        height: 10px;
+      }
+      
+      .app-navbar-stat-value {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 2px;
+      }
+      
+      .app-navbar-stat-label {
+        font-size: 10px;
+        line-height: 14px;
+      }
+      
+      .app-navbar-button {
+        padding: 0 12px;
+        font-size: 13px;
+        height: 30px;
+        margin-left: 8px;
+        align-self: center;
+      }
+    }
+    
+    .terms-container {
+      max-width: 991px;
+      margin: 0 auto;
+      padding: 20px 25px;
+    }
+    
+    .terms-header {
+      margin-bottom: 30px;
+    }
+    
+    .terms-title {
+      font-size: 28px;
+      line-height: 1.3;
+      font-weight: 500;
+      margin-bottom: 15px;
+      color: var(--black_text);
+    }
+    
+    .terms-content {
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--black_text);
+    }
+    
+    .terms-content p {
+      margin-bottom: 20px;
+    }
+    
+    .terms-content h2 {
+      font-size: 24px;
+      font-weight: 500;
+      margin: 30px 0 15px;
+      color: var(--black_text);
+    }
+    
+    .terms-content h3 {
+      font-size: 20px;
+      font-weight: 500;
+      margin: 25px 0 15px;
+      color: var(--black_text);
+    }
+    
+    .terms-content ul, .terms-content ol {
+      margin-bottom: 20px;
+      padding-left: 20px;
+    }
+    
+    .terms-content li {
+      margin-bottom: 10px;
+    }
+    
+    .terms-content a {
+      color: var(--primary_text);
+      text-decoration: none;
+    }
+    
+    .terms-content a:hover {
+      text-decoration: underline;
+    }
+    
+    .last-updated {
+      margin-top: 40px;
+      font-size: 14px;
+      color: var(--gray_text);
+      font-style: italic;
+    }
+    
+    /* Footer styles */
+    .footer {
+      background-color: var(--white);
+      padding: 20px 0;
+      margin-top: 40px;
+      border-top: 1px solid var(--boder);
+    }
+    
+    .footer-container {
+      max-width: 991px;
+      margin: 0 auto;
+      padding: 0 25px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .footer-nav {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    
+    .footer-nav a {
+      color: var(--black_text);
+      margin-right: 20px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      text-decoration: none;
+    }
+    
+    .footer-copyright {
+      font-size: 12px;
+      color: var(--gray_text);
+    }
+    
+    @media screen and (max-width: 767px) {
+      .footer-nav {
+        flex-direction: column;
+      }
+      
+      .footer-nav a {
+        margin-bottom: 15px;
+      }
+    }
+  </style>
+    <link rel="alternate" hreflang="en" href="https://amazonslots.info/terms-of-service.html" />
+    <link rel="alternate" hreflang="pl" href="https://amazonslots.info/pl/terms-of-service.html" />
+    <link rel="alternate" hreflang="it" href="https://amazonslots.info/it/terms-of-service.html" />
+    <link rel="alternate" hreflang="de" href="https://amazonslots.info/de/terms-of-service.html" />
+    <link rel="alternate" hreflang="es" href="https://amazonslots.info/es/terms-of-service.html" />
+    <link rel="alternate" hreflang="x-default" href="https://amazonslots.info/terms-of-service.html" />
+  </head>
+
+<body>
+  <div class="wrapper">
+    <!-- Шапка сайта -->
+    <header class="header">
+      <div class="header__container">
+        <a class="header-back" href="index.html" aria-label="Zurück zu Amazon Slots">
+          <i class="_icon-arrow_back"></i>
+        </a>
+        <a class="header-search" href="#" aria-label="Amazon Slots Suchseite">
+          <i class="_icon-search_black stp"></i>
+        </a>
+      </div>
+    </header>
+
+    <!-- Выдвигающаяся плашка приложения -->
+    <div class="app-navbar" id="appNavbar">
+      <div class="app-navbar-container">
+        <div class="app-navbar-left">
+          <img src="../pics/logo.webp" alt="Amazon Slots Official Application" class="app-navbar-logo">
+          <div class="app-navbar-info">
+            <h1 class="app-navbar-name c-black">Amazon Slots</h1>
+            <span class="app-navbar-category c-text">Casino</span>
+          </div>
+        </div>
+        <div class="app-navbar-stats">
+          <div class="app-navbar-stat">
+            <span class="app-navbar-stat-value c-black">
+              4.8
+              <img src="../pics/star_black_24dp.svg" width="14" height="14" alt="Amazon Slots Rating" />
+            </span>
+            <span class="app-navbar-stat-label c-text">128640 Bewertungen</span>
+          </div>
+          <div class="app-navbar-stat">
+            <div class="app-navbar-download-icon">
+              <img src="../pics/download.png" width="14" height="14" alt="Downloads count" />
+            </div>
+            <span class="app-navbar-stat-label c-text">58 MB</span>
+          </div>
+          <div class="app-navbar-stat">
+            <span class="app-navbar-stat-value c-black">1M+</span>
+            <span class="app-navbar-stat-label c-text">Downloads</span>
+          </div>
+        </div>
+        <a href="../index.html" class="app-navbar-button primary-back c-white">Herunterladen</a>
+      </div>
+    </div>
+
+    <div class="wrapper">
+
+    <main class="terms-container">
+      <div class="terms-header">
+        <h1 class="terms-title">Nutzungsbedingungen</h1>
+      </div>
+      
+      <div class="terms-content">
+        <p>Zuletzt aktualisiert: 15. Juni 2024</p>
+        
+        <p>Bitte lesen Sie diese Nutzungsbedingungen ("Bedingungen", "Nutzungsbedingungen") sorgfältig durch, bevor Sie die Amazon Slots-Website ("Service", "wir", "uns" oder "unser") nutzen.</p>
+        
+        <p>Ihr Zugang zu und die Nutzung des Services ist von Ihrer Annahme und Einhaltung dieser Bedingungen abhängig. Diese Bedingungen gelten für alle Besucher, Benutzer und andere, die auf den Service zugreifen oder ihn nutzen.</p>
+        
+        <p>Durch den Zugang zu oder die Nutzung des Services stimmen Sie zu, an diese Bedingungen gebunden zu sein. Wenn Sie mit einem Teil der Bedingungen nicht einverstanden sind, dürfen Sie nicht auf den Service zugreifen.</p>
+        
+        <h2>1. Konten</h2>
+        <p>Wenn Sie ein Konto bei uns erstellen, müssen Sie Informationen bereitstellen, die jederzeit genau, vollständig und aktuell sind. Das Versäumnis, dies zu tun, stellt eine Verletzung der Bedingungen dar, die zur sofortigen Kündigung Ihres Kontos in unserem Service führen kann.</p>
+        
+        <p>Sie sind verantwortlich für den Schutz des Passworts, das Sie für den Zugang zum Service verwenden, und für alle Aktivitäten oder Handlungen unter Ihrem Passwort, ob Ihr Passwort bei unserem Service oder einem Drittanbieter-Service ist.</p>
+        
+        <p>Sie stimmen zu, Ihr Passwort nicht an Dritte weiterzugeben. Sie müssen uns unverzüglich über jede Sicherheitsverletzung oder unbefugte Nutzung Ihres Kontos informieren.</p>
+        
+        <h2>2. Benutzerberechtigung</h2>
+        <p>Sie müssen mindestens 18 Jahre alt sein, um diesen Service zu nutzen. Durch die Nutzung dieses Services und durch die Zustimmung zu diesen Bedingungen gewährleisten und versichern Sie, dass Sie mindestens 18 Jahre alt sind.</p>
+        
+        <p>Der Service ist nicht verfügbar für Personen, deren Teilnahme durch Gesetze in ihrem Land oder ihrer Rechtsprechung untersagt sein könnte. Personen, auf die solche Beschränkungen zutreffen, dürfen nicht auf den Service zugreifen oder ihn nutzen.</p>
+        
+        <h2>3. Geistiges Eigentum</h2>
+        <p>Der Service und sein ursprünglicher Inhalt, Funktionen und Funktionalität sind und bleiben das ausschließliche Eigentum von Amazon Slots und seinen Lizenzgebern. Der Service ist durch Urheberrecht, Markenrecht und andere Gesetze sowohl Deutschlands als auch ausländischer Länder geschützt. Unsere Marken und unser Geschäftsauftritt dürfen nicht in Verbindung mit Produkten oder Dienstleistungen ohne die vorherige schriftliche Zustimmung von Amazon Slots verwendet werden.</p>
+        
+        <h2>4. Benutzerinhalte</h2>
+        <p>Unser Service ermöglicht es Ihnen, bestimmte Informationen, Texte, Grafiken, Videos oder anderes Material ("Inhalt") zu posten, zu verlinken, zu speichern, zu teilen und anderweitig verfügbar zu machen. Sie sind verantwortlich für den Inhalt, den Sie über den Service posten oder durch den Service posten, einschließlich seiner Legalität, Zuverlässigkeit und Angemessenheit.</p>
+        
+        <p>Durch das Posten von Inhalten über den Service vertreten und gewährleisten Sie, dass:</p>
+        <ul>
+          <li>Der Inhalt Ihnen gehört (Sie besitzen ihn) oder Sie das Recht haben, ihn zu verwenden und uns die Rechte und Lizenzen zu gewähren, wie in diesen Bedingungen vorgesehen.</li>
+          <li>Das Posten Ihres Inhalts über den Service nicht die Datenschutzrechte, Publizitätsrechte, Urheberrechte, Vertragsrechte oder andere Rechte einer Person verletzt.</li>
+        </ul>
+        
+        <p>Wir behalten uns das Recht vor, das Konto von jedem zu kündigen, der eine Urheberrechtsverletzung begeht.</p>
+        
+        <h2>5. Verbotene Nutzungen</h2>
+        <p>Sie stimmen zu, den Service nicht zu nutzen:</p>
+        <ul>
+          <li>Auf eine Weise, die geltende nationale oder internationale Gesetze oder Vorschriften verletzt.</li>
+          <li>Zum Zweck der Ausbeutung, Schädigung oder des Versuchs der Ausbeutung oder Schädigung von Minderjährigen auf jede Weise.</li>
+          <li>Zur Übertragung oder Beschaffung der Sendung von Werbematerial, einschließlich "Junk-Mail", "Kettenbriefe", "Spam" oder ähnliche Werbung.</li>
+          <li>Um das Unternehmen, einen Unternehmensangestellten, einen anderen Benutzer oder eine andere Person oder Einrichtung zu imitieren oder zu versuchen zu imitieren.</li>
+          <li>Auf eine Weise, die die Rechte anderer verletzt oder auf eine Weise, die illegal, bedrohlich, betrügerisch oder schädlich ist, oder in Verbindung mit unrechtmäßigen, illegalen, betrügerischen oder schädlichen Zwecken oder Aktivitäten.</li>
+          <li>Um sich an anderem Verhalten zu beteiligen, das die Nutzung oder den Genuss des Services durch andere einschränkt oder hemmt, oder das, wie von uns bestimmt, das Unternehmen oder die Benutzer des Services schädigen oder beleidigen oder der Haftung aussetzen kann.</li>
+        </ul>
+        
+        <h2>6. Haftungsbeschränkung</h2>
+        <p>In keinem Fall haften Amazon Slots noch seine Direktoren, Angestellten, Partner, Agenten, Lieferanten oder Tochtergesellschaften für indirekte, zufällige, besondere, Folge- oder Strafschäden, einschließlich, aber nicht beschränkt auf Gewinnverlust, Daten, Nutzung, Goodwill oder andere immaterielle Verluste, die aus folgendem resultieren:</p>
+        <ul>
+          <li>Ihr Zugang zu oder Nutzung oder Unfähigkeit, auf den Service zuzugreifen oder ihn zu nutzen;</li>
+          <li>Jegliches Verhalten oder jeglicher Inhalt Dritter im Service;</li>
+          <li>Jeglicher Inhalt, der vom Service erhalten wird; und</li>
+          <li>Unbefugter Zugang, Nutzung oder Änderung Ihrer Übertragungen oder Inhalte, ob basierend auf Gewährleistung, Vertrag, unerlaubter Handlung (einschließlich Fahrlässigkeit) oder einer anderen Rechtstheorie, unabhängig davon, ob wir über die Möglichkeit solcher Schäden informiert wurden.</li>
+        </ul>
+        
+        <h2>7. Haftungsausschluss</h2>
+        <p>Ihre Nutzung des Services erfolgt auf Ihr eigenes Risiko. Der Service wird "WIE BESEHEN" und "WIE VERFÜGBAR" bereitgestellt. Der Service wird ohne Gewährleistungen jeder Art bereitgestellt, ob ausdrücklich oder stillschweigend, einschließlich, aber nicht beschränkt auf stillschweigende Gewährleistungen der Marktgängigkeit, Eignung für einen bestimmten Zweck, Nichtverletzung oder Leistungsverlauf.</p>
+        
+        <p>Amazon Slots, seine Tochtergesellschaften, Verbundenen und seine Lizenzgeber gewährleisten nicht, dass:</p>
+        <ul>
+          <li>Der Service ununterbrochen, sicher oder zu einer bestimmten Zeit oder an einem bestimmten Ort verfügbar funktioniert;</li>
+          <li>Fehler oder Mängel korrigiert werden;</li>
+          <li>Der Service frei von Viren oder anderen schädlichen Komponenten ist; oder</li>
+          <li>Die Ergebnisse der Nutzung des Services Ihren Anforderungen entsprechen.</li>
+        </ul>
+        
+        <h2>8. Geltendes Recht</h2>
+        <p>Diese Bedingungen unterliegen den Gesetzen Deutschlands und werden in Übereinstimmung mit diesen ausgelegt, ohne Rücksicht auf deren Kollisionsrechtbestimmungen.</p>
+        
+        <p>Unser Versäumnis, ein Recht oder eine Bestimmung dieser Bedingungen durchzusetzen, wird nicht als Verzicht auf diese Rechte betrachtet. Wenn eine Bestimmung dieser Bedingungen von einem Gericht für ungültig oder nicht durchsetzbar gehalten wird, bleiben die verbleibenden Bestimmungen dieser Bedingungen in Kraft.</p>
+        
+        <h2>9. Änderungen der Bedingungen</h2>
+        <p>Wir behalten uns das Recht vor, diese Bedingungen nach unserem alleinigen Ermessen jederzeit zu ändern oder zu ersetzen. Wenn eine Überarbeitung wesentlich ist, werden wir versuchen, mindestens 30 Tage vor dem Inkrafttreten neuer Bedingungen eine Benachrichtigung zu geben. Was eine wesentliche Änderung darstellt, wird nach unserem alleinigen Ermessen bestimmt.</p>
+        
+        <p>Durch die fortgesetzte Nutzung oder den Zugang zu unserem Service nach dem Inkrafttreten dieser Überarbeitungen stimmen Sie zu, an die überarbeiteten Bedingungen gebunden zu sein. Wenn Sie den neuen Bedingungen nicht zustimmen, hören Sie bitte auf, den Service zu nutzen.</p>
+        
+        <h2>10. Kontaktieren Sie uns</h2>
+        <p>Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter <a href="/cdn-cgi/l/email-protection#186c7d6a756b5863635c57555951566565">terms@amazonslots.info</a>.</p>
+        
+        <p class="last-updated">Diese Nutzungsbedingungen wurden zuletzt im Juni 2024 aktualisiert.</p>
+      </div>
+    </main>
+    
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-nav">
+          <a href="index.html">Startseite</a>
+          <a href="privacy-policy.html">Datenschutzrichtlinie</a>
+          <a href="terms-of-service.html">Nutzungsbedingungen</a>
+          <a href="contact-us.html">Kontakt</a>
+          <a href="blog/index.html">Blog</a>
+        </div>
+        
+                  <div class="footer-language-switch" style="display: flex; justify-content: center; margin-bottom: 10px; padding-top: 8px; border-top: 1px solid rgba(200, 200, 200, 0.1);">
+           <select onchange="
+            const selectedLang = this.value;
+            const currentPath = window.location.pathname;
+            const enabledSiteLanguages = [&quot;en&quot;,&quot;pl&quot;,&quot;it&quot;,&quot;de&quot;,&quot;es&quot;];
+
+            // ИСПРАВЛЕНИЕ: Правильно определяем текущий файл
+            let currentFile = currentPath.split('/').pop();
+            // Если путь заканчивается на /, то это index.html
+            if (!currentFile || currentFile === '') {
+              currentFile = 'index.html';
+            }
+
+            // Определяем текущую позицию относительно структуры сайта
+            let isInLanguageFolder = false;
+            let isInBlogFolder = false;
+            let currentLang = 'de';
+
+            // Анализируем путь для определения структуры
+            const pathParts = currentPath.split('/').filter(part => part);
+
+            // Проверяем, находимся ли мы в папке блога
+            if (pathParts.includes('blog')) {
+              isInBlogFolder = true;
+            }
+
+            // Проверяем, находимся ли мы в языковой папке
+            if (pathParts.length >= 1) {
+              // Для blog страниц: /lang/blog/file.html
+              if (isInBlogFolder && pathParts.length >= 2) {
+                const langIndex = pathParts.indexOf('blog') - 1;
+                if (langIndex >= 0 && enabledSiteLanguages.includes(pathParts[langIndex])) {
+                  isInLanguageFolder = true;
+                }
+              }
+              // Для обычных страниц: /lang/file.html или /lang/
+              else if (!isInBlogFolder && pathParts.length >= 1) {
+                // ИСПРАВЛЕНИЕ: Проверяем случай /lang/ (без файла)
+                if (pathParts.length === 1 && enabledSiteLanguages.includes(pathParts[0])) {
+                  // Это путь типа /nl/ - мы в языковой папке
+                  isInLanguageFolder = true;
+                } else {
+                  // Убираем .html из имени файла для проверки
+                  const possibleLang = pathParts[pathParts.length - 1].replace('.html', '');
+                  if (enabledSiteLanguages.includes(possibleLang)) {
+                    // Это файл типа /en.html
+                    isInLanguageFolder = false;
+                  } else if (pathParts.length >= 2) {
+                    // Проверяем папку перед файлом: /lang/index.html
+                    const folderBeforeFile = pathParts[pathParts.length - 2];
+                    if (enabledSiteLanguages.includes(folderBeforeFile)) {
+                      isInLanguageFolder = true;
+                    }
+                  }
+                }
+              }
+            }
+
+            // Формируем правильный относительный путь
+            let targetPath = '';
+
+            if (currentFile.endsWith('.html') && currentFile !== 'index.html' && isInBlogFolder) {
+              // Страница статьи блога
+              if (isInLanguageFolder) {
+                // Мы в языковой версии статьи: /lang/blog/article.html
+                if (selectedLang === 'en') {
+                  targetPath = '../../blog/' + currentFile; // К основному языку
+                } else {
+                  targetPath = '../../' + selectedLang + '/blog/' + currentFile; // К другому языку
+                }
+              } else {
+                // Мы в основном языке статьи: /blog/article.html
+                if (selectedLang === 'en') {
+                  targetPath = currentFile; // Остаемся в основном языке
+                } else {
+                  targetPath = '../' + selectedLang + '/blog/' + currentFile; // К языковой версии
+                }
+              }
+            } else if (currentFile === 'index.html' && isInBlogFolder) {
+              // Главная страница блога
+              if (isInLanguageFolder) {
+                // Мы в языковой версии блога: /lang/blog/index.html
+                if (selectedLang === 'en') {
+                  targetPath = '../../blog/index.html'; // К основному языку
+                } else {
+                  targetPath = '../../' + selectedLang + '/blog/index.html'; // К другому языку
+                }
+              } else {
+                // Мы в основном языке блога: /blog/index.html
+                if (selectedLang === 'en') {
+                  targetPath = 'index.html'; // Остаемся в основном языке
+                } else {
+                  targetPath = '../' + selectedLang + '/blog/index.html'; // К языковой версии
+                }
+              }
+            } else {
+              // Другие страницы (не блог)
+              if (isInLanguageFolder) {
+                // Мы в языковой папке: /lang/file.html
+                if (selectedLang === 'en') {
+                  targetPath = '../' + currentFile; // К основному языку
+                } else {
+                  targetPath = '../' + selectedLang + '/' + currentFile; // К другому языку
+                }
+              } else {
+                // Мы в корне: /file.html
+                if (selectedLang === 'en') {
+                  targetPath = currentFile; // Остаемся в основном языке
+                } else {
+                  targetPath = selectedLang + '/' + currentFile; // К языковой версии
+                }
+              }
+            }
+            window.location.href = targetPath;
+          " style="font-size: 10px; padding: 2px 4px; border: 1px solid rgba(200, 200, 200, 0.3); border-radius: 3px; background: var(--white); color: var(--gray_text); cursor: pointer;">
+            <option value="en">en</option>
+            <option value="pl">pl</option>
+            <option value="it">it</option>
+            <option value="de" selected>de</option>
+            <option value="es">es</option>
+          </select>
+        </div>
+        <div class="footer-copyright">
+          © 2025 Amazon Slots. Alle Rechte vorbehalten.
+        </div>
+      </div>
+    </footer>
+    </div>
+  </div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html> 

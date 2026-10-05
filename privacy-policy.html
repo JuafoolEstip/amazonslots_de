@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datenschutzrichtlinie | Amazon Slots</title>
+  <meta name="description" content="Lesen Sie unsere Datenschutzrichtlinie, um zu verstehen, wie wir Ihre persönlichen Daten bei Amazon Slots sammeln, verwenden und schützen.">
+  
+  <!-- Стили темной темы и базовые стили -->
+  <link href="../static/home/dark_theme/dark_theme.css" rel="stylesheet">
+  
+  <link rel="canonical" href="https://amazonslots.info/de/privacy-policy.html" data-qmeta="canonical">
+  
+  <!-- Open Graph для соц. сетей -->
+  <meta property="og:title" content="Datenschutzrichtlinie | Amazon Slots">
+  <meta property="og:description" content="Lesen Sie unsere Datenschutzrichtlinie, um zu verstehen, wie wir Ihre persönlichen Daten bei Amazon Slots sammeln, verwenden und schützen.">
+  <meta property="og:url" content="https://amazonslots.info/privacy-policy.html">
+  <meta property="og:type" content="website">
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" as="style">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="../pics/apple-touch-icon.png">
+  <link rel="icon" type="image/webp" sizes="32x32" href="../pics/favicon-32x32.webp">
+  <link rel="icon" type="image/webp" sizes="16x16" href="../pics/favicon-16x16.webp">
+  <link rel="mask-icon" href="../pics/safari-pinned-tab.svg" color="#5bbad5">
+  <style>
+    /* CSS переменные как на основной странице */
+    :root{--white:#ffffff;--review__more:#ffffff;--black:#000000;--black_interface:#000000;--black_text:#000000;--black_text_box:#000000;--filter_for_black:none;--gray:#333;--gray_text:#333;--opacity:1;--progress_bg:#e3e3e3;--star-color_my:#e3e3e3;--boder:#d0d0d0;--primary_text:#0b57cf;--primary_back:#0b57cf;--light_primary_text:#a8c8fb;--light_primary_back:#a8c8fb;--white_text:#ffffff;--gray_back:#e3e3e3;--gray_text:#939393;--shadow_img:#dad9d9;--between:#dad9d9;--other_text:#4b4b4b}
+    
+    /* Общие классы цветов */
+    .c-black{color:var(--black_text)!important;opacity:.9!important}
+    .c-white{color:var(--white)!important}
+    .c-text{color:var(--other_text)!important}
+    .primary-text{color:var(--primary_text)!important}
+    .primary-back{background:var(--primary_back)}
+    
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .privacy-container {
+      max-width: 991px;
+      margin: 0 auto;
+      padding: 20px 25px;
+    }
+    
+    .privacy-header {
+      margin-bottom: 30px;
+    }
+    
+    .privacy-title {
+      font-size: 28px;
+      line-height: 1.3;
+      font-weight: 500;
+      margin-bottom: 15px;
+      color: var(--black_text);
+    }
+    
+    .privacy-content {
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--black_text);
+    }
+    
+    .privacy-content p {
+      margin-bottom: 20px;
+    }
+    
+    .privacy-content h2 {
+      font-size: 24px;
+      font-weight: 500;
+      margin: 30px 0 15px;
+      color: var(--black_text);
+    }
+    
+    .privacy-content h3 {
+      font-size: 20px;
+      font-weight: 500;
+      margin: 25px 0 15px;
+      color: var(--black_text);
+    }
+    
+    .privacy-content ul, .privacy-content ol {
+      margin-bottom: 20px;
+      padding-left: 20px;
+    }
+    
+    .privacy-content li {
+      margin-bottom: 10px;
+    }
+    
+    .privacy-content a {
+      color: var(--primary_text);
+      text-decoration: none;
+    }
+    
+    .privacy-content a:hover {
+      text-decoration: underline;
+    }
+    
+    .last-updated {
+      margin-top: 40px;
+      font-size: 14px;
+      color: var(--gray_text);
+      font-style: italic;
+    }
+    
+    /* Закрепленная плашка приложения */
+    .app-navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: var(--white);
+      box-shadow: 0 1px 3px var(--shadow_img);
+      z-index: 1000;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--boder);
+    }
+    
+    .app-navbar-container {
+      max-width: 991px;
+      margin: 0 auto;
+      padding: 0 25px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .app-navbar-left {
+      display: flex;
+      align-items: center;
+      flex: 1;
+    }
+    
+    .app-navbar-logo {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      margin-right: 12px;
+      box-shadow: 0 1px 3px var(--shadow_img);
+      position: relative;
+    }
+    
+    .app-navbar-info {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      min-width: 0;
+    }
+    
+    .app-navbar-name {
+      font-size: 20px;
+      line-height: 26px;
+      font-weight: 500;
+      color: var(--black_text);
+      margin-bottom: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    .app-navbar-category {
+      font-size: 12px;
+      line-height: 20px;
+      color: var(--other_text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    .app-navbar-stats {
+      display: flex;
+      align-items: center;
+      margin: 0 -15px;
+      width: max-content;
+    }
+    
+    .app-navbar-stat {
+      position: relative;
+      padding: 8px 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .app-navbar-stat:not(:last-child)::after {
+      content: "";
+      width: 1px;
+      height: 22px;
+      position: absolute;
+      background: var(--between);
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    
+    .app-navbar-stat-value {
+      font-weight: 500;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 2px;
+      color: var(--black_text);
+      opacity: 0.9;
+    }
+    
+    .app-navbar-stat-value img {
+      height: 14px;
+      margin-left: 2px;
+    }
+    
+    /* Иконка для размера приложения */
+    .app-navbar-download-icon {
+      width: 21px;
+      height: 20px;
+      border: 0.5mm solid var(--black);
+      border-radius: 3px;
+      padding: 2px;
+      margin-bottom: 5px;
+      filter: var(--filter_for_black);
+      opacity: 0.7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .app-navbar-download-icon img {
+      width: 14px;
+      height: 14px;
+      margin: 0;
+    }
+    
+    .app-navbar-stat-label {
+      font-size: 12px;
+      line-height: 20px;
+      color: var(--other_text);
+    }
+    
+    .app-navbar-button {
+      font-size: 15px;
+      height: 36px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      background: var(--primary_back);
+      color: var(--white_text);
+      border: none;
+      border-radius: 17px;
+      padding: 0 20px;
+      text-decoration: none;
+      font-weight: 400;
+      white-space: nowrap;
+      cursor: pointer;
+      margin-left: 15px;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .app-navbar {
+        padding: 8px 0;
+      }
+      
+      .wrapper {
+        margin-top: 75px !important;
+      }
+      
+      .app-navbar-container {
+        padding: 0 15px;
+      }
+      
+      .app-navbar-logo {
+        width: 42px;
+        height: 42px;
+        margin-right: 10px;
+      }
+      
+      .app-navbar-name {
+        font-size: 17px;
+        line-height: 22px;
+      }
+      
+      .app-navbar-category {
+        font-size: 12px;
+        line-height: 18px;
+      }
+      
+      .app-navbar-stats {
+        margin: 0 -10px;
+      }
+      
+      .app-navbar-stat {
+        padding: 8px 10px;
+      }
+      
+      .app-navbar-stat-value {
+        font-size: 13px;
+        line-height: 16px;
+      }
+      
+      .app-navbar-stat-label {
+        font-size: 11px;
+        line-height: 16px;
+      }
+      
+      .app-navbar-download-icon {
+        width: 18px;
+        height: 17px;
+        margin-bottom: 4px;
+      }
+      
+      .app-navbar-download-icon img {
+        width: 12px;
+        height: 12px;
+      }
+      
+      .app-navbar-button {
+        padding: 0 14px;
+        font-size: 14px;
+        height: 32px;
+        margin-left: 10px;
+        align-self: center;
+      }
+    }
+    
+    @media screen and (max-width: 480px) {
+      .wrapper {
+        margin-top: 70px !important;
+      }
+      
+      .app-navbar-container {
+        padding: 0 12px;
+      }
+      
+      .app-navbar-logo {
+        width: 38px;
+        height: 38px;
+        margin-right: 8px;
+      }
+      
+      .app-navbar-name {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      
+      .app-navbar-category {
+        font-size: 11px;
+        line-height: 16px;
+      }
+      
+      .app-navbar-stats {
+        margin: 0 -8px;
+      }
+      
+      .app-navbar-stat {
+        padding: 6px 8px;
+      }
+      
+      .app-navbar-stat:nth-child(2) {
+        display: none;
+      }
+      
+      .app-navbar-download-icon img {
+        width: 10px;
+        height: 10px;
+      }
+      
+      .app-navbar-stat-value {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 2px;
+      }
+      
+      .app-navbar-stat-label {
+        font-size: 10px;
+        line-height: 14px;
+      }
+      
+      .app-navbar-button {
+        padding: 0 12px;
+        font-size: 13px;
+        height: 30px;
+        margin-left: 8px;
+        align-self: center;
+      }
+    }
+    
+    /* Footer styles */
+    .footer {
+      background-color: var(--white);
+      padding: 20px 0;
+      margin-top: 40px;
+      border-top: 1px solid var(--boder);
+    }
+    
+    .footer-container {
+      max-width: 991px;
+      margin: 0 auto;
+      padding: 0 25px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .footer-nav {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    
+    .footer-nav a {
+      color: var(--black_text);
+      margin-right: 20px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      text-decoration: none;
+    }
+    
+    .footer-copyright {
+      font-size: 12px;
+      color: var(--gray_text);
+    }
+    
+    @media screen and (max-width: 767px) {
+      .footer-nav {
+        flex-direction: column;
+      }
+      
+      .footer-nav a {
+        margin-bottom: 15px;
+      }
+    }
+  </style>
+    <link rel="alternate" hreflang="en" href="https://amazonslots.info/privacy-policy.html" />
+    <link rel="alternate" hreflang="pl" href="https://amazonslots.info/pl/privacy-policy.html" />
+    <link rel="alternate" hreflang="it" href="https://amazonslots.info/it/privacy-policy.html" />
+    <link rel="alternate" hreflang="de" href="https://amazonslots.info/de/privacy-policy.html" />
+    <link rel="alternate" hreflang="es" href="https://amazonslots.info/es/privacy-policy.html" />
+    <link rel="alternate" hreflang="x-default" href="https://amazonslots.info/privacy-policy.html" />
+  </head>
+
+<body>
+  <!-- Выдвигающаяся плашка приложения -->
+  <div class="app-navbar" id="appNavbar">
+    <div class="app-navbar-container">
+      <div class="app-navbar-left">
+        <img src="../pics/logo.webp" alt="Amazon Slots Official Application" class="app-navbar-logo">
+        <div class="app-navbar-info">
+          <h1 class="app-navbar-name c-black">Amazon Slots</h1>
+          <span class="app-navbar-category c-text">Casino</span>
+        </div>
+      </div>
+      <div class="app-navbar-stats">
+        <div class="app-navbar-stat">
+          <span class="app-navbar-stat-value c-black">
+            4.8
+            <img src="../pics/star_black_24dp.svg" width="14" height="14" alt="Amazon Slots Rating" />
+          </span>
+          <span class="app-navbar-stat-label c-text">128640 Bewertungen</span>
+        </div>
+        <div class="app-navbar-stat">
+          <div class="app-navbar-download-icon">
+            <img src="../pics/download.png" width="14" height="14" alt="Downloads count" />
+          </div>
+          <span class="app-navbar-stat-label c-text">58 MB</span>
+        </div>
+        <div class="app-navbar-stat">
+          <span class="app-navbar-stat-value c-black">1M+</span>
+          <span class="app-navbar-stat-label c-text">Downloads</span>
+        </div>
+      </div>
+      <a href="../index.html" class="app-navbar-button primary-back c-white">Download</a>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <!-- Шапка сайта -->
+    <header class="header">
+      <div class="header__container">
+        <a class="header-back" href="index.html" aria-label="Zurück zu Amazon Slots">
+          <i class="_icon-arrow_back"></i>
+        </a>
+        <a class="header-search" href="#" aria-label="Amazon Slots Suchseite">
+          <i class="_icon-search_black stp"></i>
+        </a>
+      </div>
+    </header>
+
+    <main class="privacy-container">
+      <div class="privacy-header">
+        <h1 class="privacy-title">Datenschutzrichtlinie</h1>
+      </div>
+      
+      <div class="privacy-content">
+        <p>Zuletzt aktualisiert: 15. Juni 2024</p>
+        
+        <p>Diese Datenschutzrichtlinie beschreibt, wie Ihre persönlichen Daten gesammelt, verwendet und geteilt werden, wenn Sie Amazon Slots ("Seite", "wir", "uns" oder "unser") besuchen oder spielen.</p>
+        
+        <h2>Informationen, die wir sammeln</h2>
+        <p>Wenn Sie die Seite besuchen, sammeln wir automatisch bestimmte Informationen über Ihr Gerät, einschließlich Informationen über Ihren Webbrowser, IP-Adresse, Zeitzone und einige der Cookies, die auf Ihrem Gerät installiert sind. Zusätzlich sammeln wir beim Durchsuchen der Seite Informationen über die einzelnen Webseiten, die Sie ansehen, welche Websites oder Suchbegriffe Sie zur Seite geführt haben, und Informationen darüber, wie Sie mit der Seite interagieren. Wir bezeichnen diese automatisch gesammelten Informationen als "Geräteinformationen".</p>
+        
+        <h3>Wir sammeln Geräteinformationen mithilfe der folgenden Technologien:</h3>
+        <ul>
+          <li>"Cookies" sind Datendateien, die auf Ihrem Gerät oder Computer platziert werden und oft eine anonyme eindeutige Kennung enthalten. Weitere Informationen zu Cookies und wie man Cookies deaktiviert, finden Sie unter <a href="http://www.allaboutcookies.org" target="_blank">http://www.allaboutcookies.org</a>.</li>
+          <li>"Log-Dateien" verfolgen Aktionen, die auf der Seite auftreten, und sammeln Daten einschließlich Ihrer IP-Adresse, Browsertyp, Internetdienstanbieter, verweis-/Ausstiegsseiten und Datums-/Zeitstempel.</li>
+          <li>"Web-Beacons", "Tags" und "Pixel" sind elektronische Dateien, die zur Aufzeichnung von Informationen darüber verwendet werden, wie Sie die Seite durchsuchen.</li>
+        </ul>
+        
+        <p>Zusätzlich sammeln wir bestimmte Informationen von Ihnen, wenn Sie sich auf der Seite registrieren, einschließlich Ihres Namens, Ihrer E-Mail-Adresse und in einigen Fällen Ihrer Telefonnummer. Wir bezeichnen diese Informationen als "Kontoinformationen".</p>
+        
+        <p>Wenn wir in dieser Datenschutzrichtlinie über "Persönliche Informationen" sprechen, sprechen wir sowohl über Geräteinformationen als auch über Kontoinformationen.</p>
+        
+        <h2>Wie wir Ihre Informationen verwenden</h2>
+        <p>Wir verwenden die Kontoinformationen, die wir sammeln, im Allgemeinen, um alle Bestellungen oder Anfragen zu erfüllen, die über die Seite gemacht werden. Zusätzlich verwenden wir diese Kontoinformationen für:</p>
+        <ul>
+          <li>Kommunikation mit Ihnen;</li>
+          <li>Überprüfung auf potenzielle Risiken oder Betrug; und</li>
+          <li>Wenn es mit den Präferenzen übereinstimmt, die Sie mit uns geteilt haben, Bereitstellung von Informationen oder Werbung bezüglich unserer Produkte oder Dienstleistungen.</li>
+        </ul>
+        
+        <p>Wir verwenden die Geräteinformationen, die wir sammeln, um uns dabei zu helfen, potenzielle Risiken und Betrug zu überprüfen (insbesondere Ihre IP-Adresse) und allgemeiner, um unsere Seite zu verbessern und zu optimieren (zum Beispiel durch Generierung von Analysen darüber, wie unsere Kunden die Seite durchsuchen und mit ihr interagieren, und um den Erfolg unserer Marketing- und Werbekampagnen zu bewerten).</p>
+        
+        <h2>Weitergabe Ihrer persönlichen Informationen</h2>
+        <p>Wir teilen Ihre persönlichen Informationen mit Dritten, um uns bei der Verwendung Ihrer persönlichen Informationen zu helfen, wie oben beschrieben. Wir verwenden auch Google Analytics, um uns zu helfen zu verstehen, wie unsere Kunden die Seite nutzen – Sie können mehr darüber lesen, wie Google Ihre persönlichen Informationen verwendet hier: <a href="https://www.google.com/intl/de/policies/privacy/" target="_blank">https://www.google.com/intl/de/policies/privacy/</a>. Sie können sich auch hier von Google Analytics abmelden: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank">https://tools.google.com/dlpage/gaoptout</a>.</p>
+        
+        <p>Schließlich können wir Ihre persönlichen Informationen auch teilen, um geltende Gesetze und Vorschriften einzuhalten, auf eine Vorladung, einen Durchsuchungsbefehl oder andere rechtmäßige Anfrage nach Informationen, die wir erhalten, zu antworten oder anderweitig unsere Rechte zu schützen.</p>
+        
+        <h2>Verhaltenswerbung</h2>
+        <p>Wie oben beschrieben, verwenden wir Ihre persönlichen Informationen, um Ihnen gezielte Werbung oder Marketing-Kommunikation zu bieten, von der wir glauben, dass sie für Sie von Interesse sein könnte. Weitere Informationen darüber, wie gezielte Werbung funktioniert, finden Sie auf der Bildungsseite der Network Advertising Initiative ("NAI") unter <a href="http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work" target="_blank">http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work</a>.</p>
+        
+        <h2>Do Not Track</h2>
+        <p>Bitte beachten Sie, dass wir die Datensammlung und -verwendungspraktiken unserer Seite nicht ändern, wenn wir ein Do Not Track-Signal von Ihrem Browser sehen.</p>
+        
+        <h2>Ihre Rechte</h2>
+        <p>Wenn Sie ein europäischer Einwohner sind, haben Sie das Recht, auf persönliche Informationen zuzugreifen, die wir über Sie haben, und zu verlangen, dass Ihre persönlichen Informationen korrigiert, aktualisiert oder gelöscht werden. Wenn Sie dieses Recht ausüben möchten, kontaktieren Sie uns bitte über die unten stehenden Kontaktinformationen.</p>
+        
+        <p>Zusätzlich, wenn Sie ein europäischer Einwohner sind, beachten wir, dass wir Ihre Informationen verarbeiten, um Verträge zu erfüllen, die wir mit Ihnen haben könnten, oder um anderweitig unsere oben aufgeführten legitimen Geschäftsinteressen zu verfolgen. Beachten Sie außerdem, dass Ihre Informationen außerhalb Europas übertragen werden, einschließlich nach Indien und in die Vereinigten Staaten.</p>
+        
+        <h2>Datenspeicherung</h2>
+        <p>Wenn Sie eine Bestellung über die Seite aufgeben, werden wir Ihre Bestellinformationen für unsere Aufzeichnungen aufbewahren, es sei denn und bis Sie uns bitten, diese Informationen zu löschen.</p>
+        
+        <h2>Minderjährige</h2>
+        <p>Die Seite ist nicht für Personen unter 18 Jahren bestimmt. Wir sammeln nicht wissentlich persönliche Informationen von Kindern unter 18 Jahren. Wenn Sie ein Elternteil oder Vormund sind und wissen, dass Ihr Kind uns persönliche Informationen zur Verfügung gestellt hat, kontaktieren Sie uns bitte. Wenn wir erfahren, dass wir persönliche Informationen von einem Kind unter 18 Jahren ohne Überprüfung der elterlichen Zustimmung gesammelt haben, unternehmen wir Schritte, um diese Informationen von unseren Servern zu entfernen.</p>
+        
+        <h2>Änderungen</h2>
+        <p>Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren, um zum Beispiel Änderungen unserer Praktiken oder aus anderen betrieblichen, rechtlichen oder regulatorischen Gründen zu reflektieren.</p>
+        
+        <h2>Kontaktieren Sie uns</h2>
+        <p>Für weitere Informationen über unsere Datenschutzpraktiken, wenn Sie Fragen haben oder wenn Sie eine Beschwerde einreichen möchten, kontaktieren Sie uns bitte per E-Mail unter <a href="/cdn-cgi/l/email-protection#82f2f0ebf4e3e1fbc2f9f9c6cdcfc3cbccffff">privacy@amazonslots.info</a> oder per Post unter Verwendung der unten angegebenen Details:</p>
+        
+        <p>
+        Amazon Slots<br>
+       Alexanderplatz 1, 10178 Berlin, Deutschland
+        </p>
+        
+        <p class="last-updated">Diese Datenschutzrichtlinie wurde zuletzt im Juni 2025 aktualisiert.</p>
+      </div>
+    </main>
+    
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-nav">
+          <a href="index.html">Startseite</a>
+          <a href="privacy-policy.html">Datenschutzrichtlinie</a>
+          <a href="terms-of-service.html">Nutzungsbedingungen</a>
+          <a href="contact-us.html">Kontakt</a>
+          <a href="blog/index.html">Blog</a>
+        </div>
+        
+                  <div class="footer-language-switch" style="display: flex; justify-content: center; margin-bottom: 10px; padding-top: 8px; border-top: 1px solid rgba(200, 200, 200, 0.1);">
+           <select onchange="
+            const selectedLang = this.value;
+            const currentPath = window.location.pathname;
+            const enabledSiteLanguages = [&quot;en&quot;,&quot;pl&quot;,&quot;it&quot;,&quot;de&quot;,&quot;es&quot;];
+
+            // ИСПРАВЛЕНИЕ: Правильно определяем текущий файл
+            let currentFile = currentPath.split('/').pop();
+            // Если путь заканчивается на /, то это index.html
+            if (!currentFile || currentFile === '') {
+              currentFile = 'index.html';
+            }
+
+            // Определяем текущую позицию относительно структуры сайта
+            let isInLanguageFolder = false;
+            let isInBlogFolder = false;
+            let currentLang = 'de';
+
+            // Анализируем путь для определения структуры
+            const pathParts = currentPath.split('/').filter(part => part);
+
+            // Проверяем, находимся ли мы в папке блога
+            if (pathParts.includes('blog')) {
+              isInBlogFolder = true;
+            }
+
+            // Проверяем, находимся ли мы в языковой папке
+            if (pathParts.length >= 1) {
+              // Для blog страниц: /lang/blog/file.html
+              if (isInBlogFolder && pathParts.length >= 2) {
+                const langIndex = pathParts.indexOf('blog') - 1;
+                if (langIndex >= 0 && enabledSiteLanguages.includes(pathParts[langIndex])) {
+                  isInLanguageFolder = true;
+                }
+              }
+              // Для обычных страниц: /lang/file.html или /lang/
+              else if (!isInBlogFolder && pathParts.length >= 1) {
+                // ИСПРАВЛЕНИЕ: Проверяем случай /lang/ (без файла)
+                if (pathParts.length === 1 && enabledSiteLanguages.includes(pathParts[0])) {
+                  // Это путь типа /nl/ - мы в языковой папке
+                  isInLanguageFolder = true;
+                } else {
+                  // Убираем .html из имени файла для проверки
+                  const possibleLang = pathParts[pathParts.length - 1].replace('.html', '');
+                  if (enabledSiteLanguages.includes(possibleLang)) {
+                    // Это файл типа /en.html
+                    isInLanguageFolder = false;
+                  } else if (pathParts.length >= 2) {
+                    // Проверяем папку перед файлом: /lang/index.html
+                    const folderBeforeFile = pathParts[pathParts.length - 2];
+                    if (enabledSiteLanguages.includes(folderBeforeFile)) {
+                      isInLanguageFolder = true;
+                    }
+                  }
+                }
+              }
+            }
+
+            // Формируем правильный относительный путь
+            let targetPath = '';
+
+            if (currentFile.endsWith('.html') && currentFile !== 'index.html' && isInBlogFolder) {
+              // Страница статьи блога
+              if (isInLanguageFolder) {
+                // Мы в языковой версии статьи: /lang/blog/article.html
+                if (selectedLang === 'en') {
+                  targetPath = '../../blog/' + currentFile; // К основному языку
+                } else {
+                  targetPath = '../../' + selectedLang + '/blog/' + currentFile; // К другому языку
+                }
+              } else {
+                // Мы в основном языке статьи: /blog/article.html
+                if (selectedLang === 'en') {
+                  targetPath = currentFile; // Остаемся в основном языке
+                } else {
+                  targetPath = '../' + selectedLang + '/blog/' + currentFile; // К языковой версии
+                }
+              }
+            } else if (currentFile === 'index.html' && isInBlogFolder) {
+              // Главная страница блога
+              if (isInLanguageFolder) {
+                // Мы в языковой версии блога: /lang/blog/index.html
+                if (selectedLang === 'en') {
+                  targetPath = '../../blog/index.html'; // К основному языку
+                } else {
+                  targetPath = '../../' + selectedLang + '/blog/index.html'; // К другому языку
+                }
+              } else {
+                // Мы в основном языке блога: /blog/index.html
+                if (selectedLang === 'en') {
+                  targetPath = 'index.html'; // Остаемся в основном языке
+                } else {
+                  targetPath = '../' + selectedLang + '/blog/index.html'; // К языковой версии
+                }
+              }
+            } else {
+              // Другие страницы (не блог)
+              if (isInLanguageFolder) {
+                // Мы в языковой папке: /lang/file.html
+                if (selectedLang === 'en') {
+                  targetPath = '../' + currentFile; // К основному языку
+                } else {
+                  targetPath = '../' + selectedLang + '/' + currentFile; // К другому языку
+                }
+              } else {
+                // Мы в корне: /file.html
+                if (selectedLang === 'en') {
+                  targetPath = currentFile; // Остаемся в основном языке
+                } else {
+                  targetPath = selectedLang + '/' + currentFile; // К языковой версии
+                }
+              }
+            }
+            window.location.href = targetPath;
+          " style="font-size: 10px; padding: 2px 4px; border: 1px solid rgba(200, 200, 200, 0.3); border-radius: 3px; background: var(--white); color: var(--gray_text); cursor: pointer;">
+            <option value="en">en</option>
+            <option value="pl">pl</option>
+            <option value="it">it</option>
+            <option value="de" selected>de</option>
+            <option value="es">es</option>
+          </select>
+        </div>
+        <div class="footer-copyright">
+          © 2025 Amazon Slots. Alle Rechte vorbehalten.
+        </div>
+      </div>
+    </footer>
+  </div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html> 

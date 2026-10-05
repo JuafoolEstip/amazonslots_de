@@ -1,0 +1,16 @@
+User-agent: HTTrack
+Disallow: /
+
+User-agent: Wget
+Disallow: /
+
+User-agent: Teleport
+Disallow: /
+
+User-agent: cURL
+Disallow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://amazonslots.info/sitemap.xml
