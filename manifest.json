@@ -14,79 +14,79 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "../pics/48.png",
+      "src": "pics/48.png",
       "sizes": "48x48",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "../pics/72.png",
+      "src": "pics/72.png",
       "sizes": "72x72",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "../pics/96.png",
+      "src": "pics/96.png",
       "sizes": "96x96",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "../pics/120.png",
+      "src": "pics/120.png",
       "sizes": "120x120",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "../pics/128.png",
+      "src": "pics/128.png",
       "sizes": "128x128",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "../pics/144.png",
+      "src": "pics/144.png",
       "sizes": "144x144",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "../pics/152.png",
+      "src": "pics/152.png",
       "sizes": "152x152",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "../pics/167.png",
+      "src": "pics/167.png",
       "sizes": "167x167",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "../pics/180.png",
+      "src": "pics/180.png",
       "sizes": "180x180",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "../pics/192.png",
+      "src": "pics/192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "../pics/256.png",
+      "src": "pics/256.png",
       "sizes": "256x256",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "../pics/512.png",
+      "src": "pics/512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "../pics/1024.png",
+      "src": "pics/1024.png",
       "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "any maskable"
