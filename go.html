@@ -84,7 +84,7 @@
       let destination;
 
       try {
-        destination = new url(rawTrackerLink, window.location.origin);
+        destination = new Url(rawTrackerLink, window.location.origin);
         if (!rawTrackerLink || !["http:", "https:"].includes(destination.protocol)) {
           throw new Error("Invalid tracker URL");
         }
